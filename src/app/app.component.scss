@@ -1,0 +1,56 @@
+/* Style for the toolbar */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+    background-color: #3f51b5; /* Background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+  }
+  
+  /* Style for the brand name */
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: white;
+  }
+  
+  /* Spacer to push buttons to the right */
+  .spacer {
+    flex: 1;
+  }
+  
+  /* Style for the buttons */
+  button[mat-button] {
+    font-size: 1rem;
+    color: white;
+    margin-left: 10px;
+  }
+  
+  /* Active link style */
+  button[mat-button].active {
+    border-bottom: 2px solid white;
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 600px) {
+    .navbar {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar-brand {
+      margin-bottom: 10px;
+    }
+  
+    button[mat-button] {
+      width: 100%;
+      text-align: left;
+      margin-left: 0;
+    }
+  
+    .spacer {
+      display: none;
+    }
+  }
+  

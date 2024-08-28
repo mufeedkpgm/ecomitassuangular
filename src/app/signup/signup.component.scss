@@ -1,0 +1,52 @@
+/* Styles for the container */
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Styles for the mat-card */
+  mat-card {
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background: #ffffff;
+  }
+  
+  /* Styles for the mat-card-title */
+  mat-card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the mat-form-field */
+  mat-form-field {
+    width: 100%;
+    margin-bottom: 16px;
+  }
+  
+  /* Styles for input fields inside mat-form-field */
+  mat-form-field input {
+    font-size: 1rem;
+  }
+  
+  /* Styles for the mat-error messages */
+  mat-error {
+    font-size: 0.875rem;
+    color: #d32f2f; /* Red color for errors */
+  }
+  
+  /* Styles for the visibility toggle button inside mat-form-field */
+  mat-form-field button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+  }
+  
+  /* Styles for the mat-raised-button */
+  button[mat-raised-button] {
+    width: 100%;
+    font-size: 1rem;
+    padding: 12px;
+  }
+  
